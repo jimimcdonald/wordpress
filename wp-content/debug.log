@@ -1,0 +1,478 @@
+[13-Dec-2021 17:38:48 UTC] PHP Warning:  ftp_nlist() expects parameter 1 to be resource, null given in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 420
+[13-Dec-2021 17:38:48 UTC] PHP Stack trace:
+[13-Dec-2021 17:38:48 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[13-Dec-2021 17:38:48 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[13-Dec-2021 17:38:48 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[13-Dec-2021 17:38:48 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[13-Dec-2021 17:38:48 UTC] PHP   5. WC_Integration_MaxMind_Geolocation->update_database() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[13-Dec-2021 17:38:48 UTC] PHP   6. WP_Filesystem_FTPext->exists() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php:182
+[13-Dec-2021 17:38:48 UTC] PHP   7. ftp_nlist() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:420
+[13-Dec-2021 17:38:48 UTC] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+[13-Dec-2021 17:38:48 UTC] PHP Stack trace:
+[13-Dec-2021 17:38:48 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[13-Dec-2021 17:38:48 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[13-Dec-2021 17:38:48 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[13-Dec-2021 17:38:48 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[13-Dec-2021 17:38:48 UTC] PHP   5. WC_Integration_MaxMind_Geolocation->update_database() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[13-Dec-2021 17:38:48 UTC] PHP   6. WP_Filesystem_FTPext->exists() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php:182
+[13-Dec-2021 17:38:48 UTC] PHP   7. WP_Filesystem_FTPext->is_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:422
+[13-Dec-2021 17:38:48 UTC] PHP   8. WP_Filesystem_FTPext->cwd() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:450
+[13-Dec-2021 17:38:48 UTC] PHP   9. ftp_pwd() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+[13-Dec-2021 17:38:48 UTC] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+[13-Dec-2021 17:38:48 UTC] PHP Stack trace:
+[13-Dec-2021 17:38:48 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[13-Dec-2021 17:38:48 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[13-Dec-2021 17:38:48 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[13-Dec-2021 17:38:48 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[13-Dec-2021 17:38:48 UTC] PHP   5. WC_Integration_MaxMind_Geolocation->update_database() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[13-Dec-2021 17:38:48 UTC] PHP   6. WP_Filesystem_FTPext->exists() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php:182
+[13-Dec-2021 17:38:48 UTC] PHP   7. WP_Filesystem_FTPext->is_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:422
+[13-Dec-2021 17:38:48 UTC] PHP   8. WP_Filesystem_FTPext->cwd() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:453
+[13-Dec-2021 17:38:48 UTC] PHP   9. ftp_pwd() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+[16-Dec-2021 12:47:22 UTC] PHP Warning:  Cookie paths cannot contain any of the following ',; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 422
+[16-Dec-2021 12:47:22 UTC] PHP Stack trace:
+[16-Dec-2021 12:47:22 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:47:22 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:47:22 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 12:47:22 UTC] PHP   4. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 12:47:22 UTC] PHP   5. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:47:22 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:47:22 UTC] PHP   7. WC_AJAX::do_wc_ajax() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:47:22 UTC] PHP   8. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 12:47:22 UTC] PHP   9. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:47:22 UTC] PHP  10. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:47:22 UTC] PHP  11. WC_AJAX::checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:47:22 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 12:47:22 UTC] PHP  13. WC_Checkout->process_order_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 12:47:22 UTC] PHP  14. WC_Payment_Network->process_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 12:47:22 UTC] PHP  15. WC_Payment_Network->process_response_callback() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:350
+[16-Dec-2021 12:47:22 UTC] PHP  16. P3\SDK\Gateway->verifyResponse() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:567
+[16-Dec-2021 12:47:22 UTC] PHP  17. WC_Payment_Network->on_threeds_required() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/vendor/p3/php-sdk/src/Gateway.php:302
+[16-Dec-2021 12:47:22 UTC] PHP  18. setcookie() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:422
+[16-Dec-2021 12:47:23 UTC] PHP Notice:  Undefined index: threeDSRef in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 555
+[16-Dec-2021 12:47:23 UTC] PHP Stack trace:
+[16-Dec-2021 12:47:23 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:47:23 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:47:23 UTC] PHP   3. wp() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:16
+[16-Dec-2021 12:47:23 UTC] PHP   4. WP->main() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/functions.php:1291
+[16-Dec-2021 12:47:23 UTC] PHP   5. WP->parse_request() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:750
+[16-Dec-2021 12:47:23 UTC] PHP   6. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:388
+[16-Dec-2021 12:47:23 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[16-Dec-2021 12:47:23 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:47:23 UTC] PHP   9. WC_API->handle_api_requests() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:47:23 UTC] PHP  10. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-api.php:161
+[16-Dec-2021 12:47:23 UTC] PHP  11. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:47:23 UTC] PHP  12. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:47:23 UTC] PHP  13. WC_Payment_Network->process_response_callback() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:50:16 UTC] PHP Warning:  Cookie paths cannot contain any of the following ',; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 422
+[16-Dec-2021 12:50:16 UTC] PHP Stack trace:
+[16-Dec-2021 12:50:16 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:50:16 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:50:16 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 12:50:16 UTC] PHP   4. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 12:50:16 UTC] PHP   5. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:50:16 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:50:16 UTC] PHP   7. WC_AJAX::do_wc_ajax() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:50:16 UTC] PHP   8. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 12:50:16 UTC] PHP   9. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:50:16 UTC] PHP  10. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:50:16 UTC] PHP  11. WC_AJAX::checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:50:16 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 12:50:16 UTC] PHP  13. WC_Checkout->process_order_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 12:50:16 UTC] PHP  14. WC_Payment_Network->process_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 12:50:16 UTC] PHP  15. WC_Payment_Network->process_response_callback() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:350
+[16-Dec-2021 12:50:16 UTC] PHP  16. P3\SDK\Gateway->verifyResponse() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:567
+[16-Dec-2021 12:50:16 UTC] PHP  17. WC_Payment_Network->on_threeds_required() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/vendor/p3/php-sdk/src/Gateway.php:302
+[16-Dec-2021 12:50:16 UTC] PHP  18. setcookie() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:422
+[16-Dec-2021 12:50:17 UTC] PHP Notice:  Undefined index: threeDSRef in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 555
+[16-Dec-2021 12:50:17 UTC] PHP Stack trace:
+[16-Dec-2021 12:50:17 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:50:17 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:50:17 UTC] PHP   3. wp() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:16
+[16-Dec-2021 12:50:17 UTC] PHP   4. WP->main() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/functions.php:1291
+[16-Dec-2021 12:50:17 UTC] PHP   5. WP->parse_request() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:750
+[16-Dec-2021 12:50:17 UTC] PHP   6. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:388
+[16-Dec-2021 12:50:17 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[16-Dec-2021 12:50:17 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:50:17 UTC] PHP   9. WC_API->handle_api_requests() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:50:17 UTC] PHP  10. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-api.php:161
+[16-Dec-2021 12:50:17 UTC] PHP  11. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:50:17 UTC] PHP  12. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:50:17 UTC] PHP  13. WC_Payment_Network->process_response_callback() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:51:31 UTC] PHP Warning:  Cookie paths cannot contain any of the following ',; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 422
+[16-Dec-2021 12:51:31 UTC] PHP Stack trace:
+[16-Dec-2021 12:51:31 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:51:31 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:51:31 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 12:51:31 UTC] PHP   4. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 12:51:31 UTC] PHP   5. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:51:31 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:51:31 UTC] PHP   7. WC_AJAX::do_wc_ajax() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:51:31 UTC] PHP   8. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 12:51:31 UTC] PHP   9. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:51:31 UTC] PHP  10. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:51:31 UTC] PHP  11. WC_AJAX::checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:51:31 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 12:51:31 UTC] PHP  13. WC_Checkout->process_order_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 12:51:31 UTC] PHP  14. WC_Payment_Network->process_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 12:51:31 UTC] PHP  15. WC_Payment_Network->process_response_callback() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:350
+[16-Dec-2021 12:51:31 UTC] PHP  16. P3\SDK\Gateway->verifyResponse() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:567
+[16-Dec-2021 12:51:31 UTC] PHP  17. WC_Payment_Network->on_threeds_required() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/vendor/p3/php-sdk/src/Gateway.php:302
+[16-Dec-2021 12:51:31 UTC] PHP  18. setcookie() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:422
+[16-Dec-2021 12:51:32 UTC] PHP Notice:  Undefined index: threeDSRef in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 555
+[16-Dec-2021 12:51:32 UTC] PHP Stack trace:
+[16-Dec-2021 12:51:32 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:51:32 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:51:32 UTC] PHP   3. wp() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:16
+[16-Dec-2021 12:51:32 UTC] PHP   4. WP->main() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/functions.php:1291
+[16-Dec-2021 12:51:32 UTC] PHP   5. WP->parse_request() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:750
+[16-Dec-2021 12:51:32 UTC] PHP   6. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:388
+[16-Dec-2021 12:51:32 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[16-Dec-2021 12:51:32 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:51:32 UTC] PHP   9. WC_API->handle_api_requests() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:51:32 UTC] PHP  10. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-api.php:161
+[16-Dec-2021 12:51:32 UTC] PHP  11. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:51:32 UTC] PHP  12. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:51:32 UTC] PHP  13. WC_Payment_Network->process_response_callback() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:55:53 UTC] PHP Warning:  Cookie paths cannot contain any of the following ',; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 422
+[16-Dec-2021 12:55:53 UTC] PHP Stack trace:
+[16-Dec-2021 12:55:53 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:55:53 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:55:53 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 12:55:53 UTC] PHP   4. do_action($hook_name = *uninitialized*, ...$arg = variadic()) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 12:55:53 UTC] PHP   5. WP_Hook->do_action($args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:55:53 UTC] PHP   6. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:55:53 UTC] PHP   7. WC_AJAX::do_wc_ajax(*uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:55:53 UTC] PHP   8. do_action($hook_name = *uninitialized*, ...$arg = variadic()) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 12:55:53 UTC] PHP   9. WP_Hook->do_action($args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:55:53 UTC] PHP  10. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:55:53 UTC] PHP  11. WC_AJAX::checkout(*uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:55:53 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 12:55:53 UTC] PHP  13. WC_Checkout->process_order_payment($order_id = *uninitialized*, $payment_method = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 12:55:53 UTC] PHP  14. WC_Payment_Network->process_payment($order_id = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 12:55:53 UTC] PHP  15. WC_Payment_Network->process_response_callback($response = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:350
+[16-Dec-2021 12:55:53 UTC] PHP  16. P3\SDK\Gateway->verifyResponse($response = *uninitialized*, $onThreeDSRequired = *uninitialized*, $onSuccess = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:567
+[16-Dec-2021 12:55:53 UTC] PHP  17. WC_Payment_Network->on_threeds_required($threeDSVersion = *uninitialized*, $res = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/vendor/p3/php-sdk/src/Gateway.php:302
+[16-Dec-2021 12:55:53 UTC] PHP  18. setcookie(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:422
+[16-Dec-2021 12:55:54 UTC] PHP Notice:  Undefined index: threeDSRef in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 555
+[16-Dec-2021 12:55:54 UTC] PHP Stack trace:
+[16-Dec-2021 12:55:54 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:55:54 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:55:54 UTC] PHP   3. wp($query_vars = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:16
+[16-Dec-2021 12:55:54 UTC] PHP   4. WP->main($query_args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/functions.php:1291
+[16-Dec-2021 12:55:54 UTC] PHP   5. WP->parse_request($extra_query_vars = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:750
+[16-Dec-2021 12:55:54 UTC] PHP   6. do_action_ref_array($hook_name = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:388
+[16-Dec-2021 12:55:54 UTC] PHP   7. WP_Hook->do_action($args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[16-Dec-2021 12:55:54 UTC] PHP   8. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:55:54 UTC] PHP   9. WC_API->handle_api_requests(*uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:55:54 UTC] PHP  10. do_action($hook_name = *uninitialized*, ...$arg = variadic()) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-api.php:161
+[16-Dec-2021 12:55:54 UTC] PHP  11. WP_Hook->do_action($args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:55:54 UTC] PHP  12. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:55:54 UTC] PHP  13. WC_Payment_Network->process_response_callback($response = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:56:43 UTC] PHP Warning:  Cookie paths cannot contain any of the following ',; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 422
+[16-Dec-2021 12:56:43 UTC] PHP Stack trace:
+[16-Dec-2021 12:56:43 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:56:43 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:56:43 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 12:56:43 UTC] PHP   4. do_action($hook_name = *uninitialized*, ...$arg = variadic()) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 12:56:43 UTC] PHP   5. WP_Hook->do_action($args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:56:43 UTC] PHP   6. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:56:43 UTC] PHP   7. WC_AJAX::do_wc_ajax(*uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:56:43 UTC] PHP   8. do_action($hook_name = *uninitialized*, ...$arg = variadic()) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 12:56:43 UTC] PHP   9. WP_Hook->do_action($args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:56:43 UTC] PHP  10. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:56:43 UTC] PHP  11. WC_AJAX::checkout(*uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:56:43 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 12:56:43 UTC] PHP  13. WC_Checkout->process_order_payment($order_id = *uninitialized*, $payment_method = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 12:56:43 UTC] PHP  14. WC_Payment_Network->process_payment($order_id = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 12:56:43 UTC] PHP  15. WC_Payment_Network->process_response_callback($response = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:350
+[16-Dec-2021 12:56:43 UTC] PHP  16. P3\SDK\Gateway->verifyResponse($response = *uninitialized*, $onThreeDSRequired = *uninitialized*, $onSuccess = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:567
+[16-Dec-2021 12:56:43 UTC] PHP  17. WC_Payment_Network->on_threeds_required($threeDSVersion = *uninitialized*, $res = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/vendor/p3/php-sdk/src/Gateway.php:302
+[16-Dec-2021 12:56:43 UTC] PHP  18. setcookie(*uninitialized*, *uninitialized*, *uninitialized*, *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:422
+[16-Dec-2021 12:56:44 UTC] PHP Notice:  Undefined index: threeDSRef in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 555
+[16-Dec-2021 12:56:44 UTC] PHP Stack trace:
+[16-Dec-2021 12:56:44 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 12:56:44 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 12:56:44 UTC] PHP   3. wp($query_vars = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:16
+[16-Dec-2021 12:56:44 UTC] PHP   4. WP->main($query_args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/functions.php:1291
+[16-Dec-2021 12:56:44 UTC] PHP   5. WP->parse_request($extra_query_vars = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:750
+[16-Dec-2021 12:56:44 UTC] PHP   6. do_action_ref_array($hook_name = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp.php:388
+[16-Dec-2021 12:56:44 UTC] PHP   7. WP_Hook->do_action($args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[16-Dec-2021 12:56:44 UTC] PHP   8. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:56:44 UTC] PHP   9. WC_API->handle_api_requests(*uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 12:56:44 UTC] PHP  10. do_action($hook_name = *uninitialized*, ...$arg = variadic()) /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-api.php:161
+[16-Dec-2021 12:56:44 UTC] PHP  11. WP_Hook->do_action($args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 12:56:44 UTC] PHP  12. WP_Hook->apply_filters($value = *uninitialized*, $args = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 12:56:44 UTC] PHP  13. WC_Payment_Network->process_response_callback($response = *uninitialized*) /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 14:29:37 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 348
+[16-Dec-2021 14:29:37 UTC] PHP Stack trace:
+[16-Dec-2021 14:29:37 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 14:29:37 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 14:29:37 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 14:29:37 UTC] PHP   4. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 14:29:37 UTC] PHP   5. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 14:29:37 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 14:29:37 UTC] PHP   7. WC_AJAX::do_wc_ajax() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 14:29:37 UTC] PHP   8. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 14:29:37 UTC] PHP   9. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 14:29:37 UTC] PHP  10. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 14:29:37 UTC] PHP  11. WC_AJAX::checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 14:29:37 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 14:29:37 UTC] PHP  13. WC_Checkout->process_order_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 14:29:37 UTC] PHP  14. WC_Payment_Network->process_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 14:29:37 UTC] PHP  15. setcookie() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:348
+[16-Dec-2021 16:48:12 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 348
+[16-Dec-2021 16:48:12 UTC] PHP Stack trace:
+[16-Dec-2021 16:48:12 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 16:48:12 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 16:48:12 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 16:48:12 UTC] PHP   4. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 16:48:12 UTC] PHP   5. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 16:48:12 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 16:48:12 UTC] PHP   7. WC_AJAX::do_wc_ajax() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 16:48:12 UTC] PHP   8. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 16:48:12 UTC] PHP   9. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 16:48:12 UTC] PHP  10. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 16:48:12 UTC] PHP  11. WC_AJAX::checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 16:48:12 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 16:48:12 UTC] PHP  13. WC_Checkout->process_order_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 16:48:12 UTC] PHP  14. WC_Payment_Network->process_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 16:48:12 UTC] PHP  15. setcookie() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:348
+[16-Dec-2021 16:50:12 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 348
+[16-Dec-2021 16:50:12 UTC] PHP Stack trace:
+[16-Dec-2021 16:50:12 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 16:50:12 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 16:50:12 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 16:50:12 UTC] PHP   4. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 16:50:12 UTC] PHP   5. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 16:50:12 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 16:50:12 UTC] PHP   7. WC_AJAX::do_wc_ajax() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 16:50:12 UTC] PHP   8. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 16:50:12 UTC] PHP   9. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 16:50:12 UTC] PHP  10. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 16:50:12 UTC] PHP  11. WC_AJAX::checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 16:50:12 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 16:50:12 UTC] PHP  13. WC_Checkout->process_order_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 16:50:12 UTC] PHP  14. WC_Payment_Network->process_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 16:50:12 UTC] PHP  15. setcookie() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:348
+[16-Dec-2021 16:55:58 UTC] PHP Warning:  Cookie names cannot contain any of the following '=,; \t\r\n\013\014' in /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php on line 348
+[16-Dec-2021 16:55:58 UTC] PHP Stack trace:
+[16-Dec-2021 16:55:58 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/index.php:0
+[16-Dec-2021 16:55:58 UTC] PHP   2. require() /var/www/html/wordpress-5.8.2/wordpress/index.php:17
+[16-Dec-2021 16:55:58 UTC] PHP   3. require_once() /var/www/html/wordpress-5.8.2/wordpress/wp-blog-header.php:19
+[16-Dec-2021 16:55:58 UTC] PHP   4. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/template-loader.php:13
+[16-Dec-2021 16:55:58 UTC] PHP   5. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 16:55:58 UTC] PHP   6. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 16:55:58 UTC] PHP   7. WC_AJAX::do_wc_ajax() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 16:55:58 UTC] PHP   8. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:90
+[16-Dec-2021 16:55:58 UTC] PHP   9. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[16-Dec-2021 16:55:58 UTC] PHP  10. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[16-Dec-2021 16:55:58 UTC] PHP  11. WC_AJAX::checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[16-Dec-2021 16:55:58 UTC] PHP  12. WC_Checkout->process_checkout() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php:465
+[16-Dec-2021 16:55:58 UTC] PHP  13. WC_Checkout->process_order_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:1195
+[16-Dec-2021 16:55:58 UTC] PHP  14. WC_Payment_Network->process_payment() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php:980
+[16-Dec-2021 16:55:58 UTC] PHP  15. setcookie() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/WooCommerce-main/includes/class-wc-payment-network.php:348
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:162
+[14-Jan-2022 11:48:41 UTC] PHP  14. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. update_core() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:172
+[14-Jan-2022 11:48:41 UTC] PHP  14. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1171
+[14-Jan-2022 11:48:41 UTC] PHP  15. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1520
+[14-Jan-2022 11:48:41 UTC] PHP  16. WP_Filesystem_Direct->copy() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1485
+[14-Jan-2022 11:48:41 UTC] PHP  17. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:312
+[14-Jan-2022 11:48:41 UTC] PHP  18. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. update_core() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:172
+[14-Jan-2022 11:48:41 UTC] PHP  14. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1171
+[14-Jan-2022 11:48:41 UTC] PHP  15. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1520
+[14-Jan-2022 11:48:41 UTC] PHP  16. WP_Filesystem_Direct->copy() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1485
+[14-Jan-2022 11:48:41 UTC] PHP  17. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:312
+[14-Jan-2022 11:48:41 UTC] PHP  18. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. update_core() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:172
+[14-Jan-2022 11:48:41 UTC] PHP  14. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1171
+[14-Jan-2022 11:48:41 UTC] PHP  15. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1520
+[14-Jan-2022 11:48:41 UTC] PHP  16. WP_Filesystem_Direct->copy() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1485
+[14-Jan-2022 11:48:41 UTC] PHP  17. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:312
+[14-Jan-2022 11:48:41 UTC] PHP  18. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. update_core() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:172
+[14-Jan-2022 11:48:41 UTC] PHP  14. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1171
+[14-Jan-2022 11:48:41 UTC] PHP  15. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1520
+[14-Jan-2022 11:48:41 UTC] PHP  16. WP_Filesystem_Direct->copy() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1485
+[14-Jan-2022 11:48:41 UTC] PHP  17. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:312
+[14-Jan-2022 11:48:41 UTC] PHP  18. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. update_core() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:172
+[14-Jan-2022 11:48:41 UTC] PHP  14. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1171
+[14-Jan-2022 11:48:41 UTC] PHP  15. WP_Filesystem_Direct->copy() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1485
+[14-Jan-2022 11:48:41 UTC] PHP  16. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:312
+[14-Jan-2022 11:48:41 UTC] PHP  17. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. update_core() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:172
+[14-Jan-2022 11:48:41 UTC] PHP  14. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1171
+[14-Jan-2022 11:48:41 UTC] PHP  15. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1520
+[14-Jan-2022 11:48:41 UTC] PHP  16. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1520
+[14-Jan-2022 11:48:41 UTC] PHP  17. WP_Filesystem_Direct->copy() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1485
+[14-Jan-2022 11:48:41 UTC] PHP  18. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:312
+[14-Jan-2022 11:48:41 UTC] PHP  19. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. update_core() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:172
+[14-Jan-2022 11:48:41 UTC] PHP  14. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1171
+[14-Jan-2022 11:48:41 UTC] PHP  15. _copy_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1520
+[14-Jan-2022 11:48:41 UTC] PHP  16. WP_Filesystem_Direct->copy() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1485
+[14-Jan-2022 11:48:41 UTC] PHP  17. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:312
+[14-Jan-2022 11:48:41 UTC] PHP  18. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:41 UTC] PHP Warning:  chmod(): Operation not permitted in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[14-Jan-2022 11:48:41 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:41 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:41 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:41 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:41 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   5. wp_version_check() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP   6. do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:256
+[14-Jan-2022 11:48:41 UTC] PHP   7. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:470
+[14-Jan-2022 11:48:41 UTC] PHP   8. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:41 UTC] PHP   9. wp_maybe_auto_update() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:41 UTC] PHP  10. WP_Automatic_Updater->run() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/update.php:729
+[14-Jan-2022 11:48:41 UTC] PHP  11. WP_Automatic_Updater->update() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:490
+[14-Jan-2022 11:48:41 UTC] PHP  12. Core_Upgrader->upgrade() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-automatic-updater.php:402
+[14-Jan-2022 11:48:41 UTC] PHP  13. update_core() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-core-upgrader.php:172
+[14-Jan-2022 11:48:41 UTC] PHP  14. WP_Filesystem_Direct->chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/update-core.php:1192
+[14-Jan-2022 11:48:41 UTC] PHP  15. chmod() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-direct.php:173
+[14-Jan-2022 11:48:46 UTC] PHP Warning:  ftp_nlist() expects parameter 1 to be resource, null given in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 420
+[14-Jan-2022 11:48:46 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:46 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:46 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:46 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:46 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:46 UTC] PHP   5. WC_Integration_MaxMind_Geolocation->update_database() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:46 UTC] PHP   6. WP_Filesystem_FTPext->exists() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php:182
+[14-Jan-2022 11:48:46 UTC] PHP   7. ftp_nlist() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:420
+[14-Jan-2022 11:48:46 UTC] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+[14-Jan-2022 11:48:46 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:46 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:46 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:46 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:46 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:46 UTC] PHP   5. WC_Integration_MaxMind_Geolocation->update_database() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:46 UTC] PHP   6. WP_Filesystem_FTPext->exists() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php:182
+[14-Jan-2022 11:48:46 UTC] PHP   7. WP_Filesystem_FTPext->is_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:422
+[14-Jan-2022 11:48:46 UTC] PHP   8. WP_Filesystem_FTPext->cwd() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:450
+[14-Jan-2022 11:48:46 UTC] PHP   9. ftp_pwd() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:230
+[14-Jan-2022 11:48:46 UTC] PHP Warning:  ftp_pwd() expects parameter 1 to be resource, null given in /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 230
+[14-Jan-2022 11:48:46 UTC] PHP Stack trace:
+[14-Jan-2022 11:48:46 UTC] PHP   1. {main}() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:0
+[14-Jan-2022 11:48:46 UTC] PHP   2. do_action_ref_array() /var/www/html/wordpress-5.8.2/wordpress/wp-cron.php:138
+[14-Jan-2022 11:48:46 UTC] PHP   3. WP_Hook->do_action() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/plugin.php:518
+[14-Jan-2022 11:48:46 UTC] PHP   4. WP_Hook->apply_filters() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:327
+[14-Jan-2022 11:48:46 UTC] PHP   5. WC_Integration_MaxMind_Geolocation->update_database() /var/www/html/wordpress-5.8.2/wordpress/wp-includes/class-wp-hook.php:303
+[14-Jan-2022 11:48:46 UTC] PHP   6. WP_Filesystem_FTPext->exists() /var/www/html/wordpress-5.8.2/wordpress/wp-content/plugins/woocommerce/includes/integrations/maxmind-geolocation/class-wc-integration-maxmind-geolocation.php:182
+[14-Jan-2022 11:48:46 UTC] PHP   7. WP_Filesystem_FTPext->is_dir() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:422
+[14-Jan-2022 11:48:46 UTC] PHP   8. WP_Filesystem_FTPext->cwd() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:453
+[14-Jan-2022 11:48:46 UTC] PHP   9. ftp_pwd() /var/www/html/wordpress-5.8.2/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:230
